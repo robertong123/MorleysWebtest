@@ -1,0 +1,1302 @@
+@media screen and (max-width: 1200px) {
+
+.cdge-header-container {
+    padding: 20px 20px;
+}	
+.cdge-header-center .menu > li.menu-item {
+    margin: 0 10px;
+}	
+.cdge-header-defualt-icon li {
+    padding: 0px 15px;
+}	
+.cdge-header-defualt-icon li.search-tool {
+    padding-right: 5px;
+}	
+.cdge-menu-mobile-wrp .menu-item-has-children ul.sub-menu:before {
+    content: unset;
+}
+.cdge-menu-mobile-wrp .menu-item-has-children ul.sub-menu li a:before{
+    content:unset;
+}	
+	
+}/*1200*/
+
+
+
+@media screen and (max-width: 1024px) {
+	
+.cdge-blog-archive {
+    width: 50%;
+}	
+li.header-account.header-account-custom {
+    display: none;
+}
+.cdge-header-container {
+    padding: 10px 30px;
+}
+.cdge-header-center {
+    display: none;
+}
+.cdge-header-defualt-icon li {
+    padding: 0px 15px;
+}
+.cdge-mobile_hamburger_icon {
+    display: block;
+    padding-left: 20px !important;
+}
+.cdge-home-slider-container {
+    padding: 0 15px;
+}	
+.cdge-home-slider-title {
+    font-size: 38px;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+}	
+.cdge-testimonial-padding {
+    padding-top: 20px;
+}	
+.cdge-testimonial-top {
+    padding: 20px;
+}
+.cdge-testimonial-bottom {
+    padding: 20px;
+}	
+.cdg_tab_main_wrp .cdg_tab_main_inner .cdg_tab_top_detail .cdg_tab_top_left {
+    padding-right: 20px;
+}
+.cdg_tab_main_wrp .cdg_tab_main_inner .cdg_tab_top_detail .cdg_tab_top_left .cdg_tab_top_subtitle {
+    font-size: 1em;
+}
+.cdg_tab_main_wrp .cdg_tab_main_inner .cdg_tab_top_detail .cdg_tab_top_left .cdg_tab_top_heading {
+    font-size: 1.75em;
+	line-height: 1.25;
+}
+.cdg-cities-repeater-main .cdg-our-cities-row .cdg-our-cities-loop .cdg-our-cities-loop-inner .cdg-our-cities-title {
+    font-size: 1em;
+}
+.cdge-milestones-repeater-main {
+	padding: 0 25px 0 25px;
+	overflow: hidden;
+}
+.cdge-milestones-repeater-main .swiper-container {
+	overflow: initial;
+}
+.cdge-milestones-repeater-main:before {
+	left: 0px;
+	right: 0px;
+}
+.cdge-milestones-next,
+.cdge-milestones-prev {
+	display: none;
+}
+}/*1024*/	
+
+
+@media screen and (max-width: 900px) {
+	.cdg-cities-repeater-main .cdg-our-cities-row .cdg-our-cities-loop {
+    	max-width: calc(50% - 20px);
+	}
+}/*900*/
+
+
+@media screen and (max-width: 782px) {
+
+.admin-bar .site-header-wrp.header-fixed .cdge-header-main-wrp {
+    top: 46px;
+}
+
+}/*782*/	
+	
+
+@media screen and (max-width: 767px) {
+.cdg_tab_main_wrp .cdg_tab_main_inner .cdg_tab_top_detail .cdg_tab_top_right {
+    max-width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.cdg_tab_main_wrp .cdg_tab_main_inner .cdg_tab_top_detail .cdg_tab_top_left {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+}	
+.cdge-header-defualt-icon li.search-tool {
+    display: none;
+}	
+.cdge-mobile-header-search-main-section {
+    display: block;
+}	
+.cdge-blog-upper {
+	display: block;		
+}
+.cdge-blog-archive {
+    width: 100%;
+}	
+.cdge-blog-upper .cdge-post-search-wrp {
+    width: 100%;
+    margin-top: 20px;
+}
+.cdge-sorting::before {
+    left: unset;
+	padding: 0 10px;
+}
+.slick-center .cdge-testimonial-top {
+    padding: 20px;
+}
+.slick-center .cdge-testimonial-bottom {
+    padding: 20px;
+}
+.cdge-testimonial-padding {
+    padding-top: 0;
+}	
+.cdg-gn-counter-wrp .elementor-counter-number-suffix {
+    font-size: 16px;
+}
+.cdge-milestones-repeater-main {
+	padding: 0 15px 0 15px;
+}
+.cdge-milestones-loop .cdge-milestones-loop-inner .cdge-milestones-content {
+   	max-width: 235px;
+	padding: 20px 20px 30px 20px;
+	font-size: 0.875em;
+}
+	
+}/*767*/
+
+
+
+@media screen and (max-width: 600px) {
+.cdg-cities-repeater-main .cdg-our-cities-row .cdg-our-cities-loop {
+    max-width: calc(50% - 10px);
+    margin: 0 5px 10px 5px;
+    min-height: 300px;
+}
+.cdg-cities-repeater-main .cdg-our-cities-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.cdg-network-row-wrp .elementor-column.cdg-network-menu-colum {
+    max-width: 100%;
+	margin-bottom: 20px;
+}
+.cdg-network-row-wrp .elementor-column.cdg-network-content-colum {
+    max-width: 100%;
+}
+.cdg-network-menu .elementor-widget-container {
+    overflow: hidden;
+}
+.cdg-network-menu ul.elementor-icon-list-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.cdg-network-menu ul.elementor-icon-list-items li.elementor-icon-list-item {
+    width: 100%;
+    max-width: 80px;
+    margin: 0 5px;
+}
+.cdg-network-menu ul.elementor-icon-list-items li.elementor-icon-list-item a .elementor-icon-list-icon svg {
+    max-height: 100%;
+    height: 30px;
+}
+	
+	
+	
+.admin-bar .site-header-wrp.header-fixed .cdge-header-main-wrp {
+    top: 0;
+}	
+ul.header-account-submenu {
+    top: 40px;
+    right: -16px;
+}
+#off-fullscreen-menu {
+	width: 90% !important;
+    padding: 70px 20px;
+}
+.cdge-header-defualt-icon li {
+    padding: 0px 5px;
+}
+.toggle-menu.minicart-menu-link .tools-btn-icon {
+    margin-right: 5px;
+}
+.search-tool .tools-btn-icon {
+    font-size: 18px;
+	line-height: 24px;
+}
+button.toggle-menu.minicart-menu-link span i {
+    font-size: 18px;
+    line-height: 25px;
+}
+span#woo-cart-count {
+    top: -5px;
+    right: -5px;
+}
+.ins-header-search-opened .ins-header-search-main:before {
+    right: 24px;
+}	
+.cdge-search-page-wrp .entry-title {
+    font-size: 36px !important;
+    letter-spacing: 1.8px;
+    line-height: 45px;
+}	
+.cdge-search-page-wrp .page-content {
+    padding: 10% 6%;
+}	
+.cdge-search-page-wrp h2.search-page-title-wrp a {
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+}	
+.cdge-search-page-wrp .page-content img {
+    height: 280px;
+}
+.cdge-error-page .page-content {
+    padding: 0 20px;
+}	
+.cdge-error-title {
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: 1px;
+}	
+.cdge-error-text {
+    font-size: 18px !important;
+    line-height: 28px;
+    letter-spacing: 1px;
+}	
+.cdge-error-page .page-header .entry-title {
+    font-size: 38px !important;
+    letter-spacing: 1.3px;
+    line-height: 50px;
+}	
+.cdge-testimonial-padding {
+    padding: 0 5px;
+}	
+	
+}/*600*/
+
+@media screen and (max-width: 420px) {
+.cdg-cities-repeater-main .cdg-our-cities-row .cdg-our-cities-loop {
+    min-height: 240px;
+}
+}
+@media screen and (max-width: 380px) {
+.cdg-cities-repeater-main .cdg-our-cities-row .cdg-our-cities-loop {
+    max-width: calc(100% - 10px);
+    margin: 0 5px 20px 5px;
+    min-height: 280px;
+}
+}
+
+/**Start Footer Responsive css **/
+@media screen and (max-width: 1024px) {
+.cdg-footer-copyright-text {
+    text-align: left;
+}	
+}
+
+@media screen and (max-width: 767px) {
+.cdgc-footer-email-icon a.elementor-button-link span span.elementor-button-text:before {
+    font-size: 21px;
+}
+.cdg-footer-contact-us-icon a.elementor-button-link span span.elementor-button-text:before {
+    font-size: 21px;
+}
+.cdg-footer-bg-overlay:before {
+    width: 439px;
+    max-width: 439px;
+    height: 439px;
+    right: -215px;
+}
+}
+/**End Footer Responsive css **/
+
+
+
+/**Start Header Responsive css **/
+@media screen and (max-width: 767px) {
+.cdge-header-container {
+    padding: 10px 30px 10px 20px;
+}
+.sub-menu-wrap {
+    width: 100%;
+}
+.sub-menu-wrap {
+    padding: 70px 50px 50px 20px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.cdge-header-search {
+    min-width: 422px;
+}
+.cdge-header-search-offcavas-main-section .cdge-header-search form {
+    display: block;
+	border-bottom: none;
+    padding-bottom: 0;
+}
+.cdge-header-search-offcavas-main-section form input {
+    padding: 12px;
+    border-bottom: 1px solid #ffffff80;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+}
+
+@media screen and (max-width: 500px) {
+.cdg-offcanvas-menu-wrp .menu-off-canvas-menu-container {
+    min-width: 235px !important;
+}
+.cdge-header-search {
+    min-width: 350px;
+}
+}
+
+@media screen and (max-width: 414px) {
+.cdge-header-search-offcavas-main-section button i {
+    font-size: 16px;
+    padding-right: 10px;
+}
+.cdge-header-search-offcavas-main-section button {
+    font-size: 14px;
+    line-height: 17.5px;
+    padding: 10px 10px;
+    width: 100%;
+}
+.cdg-offcanvas-menu-wrp {
+    max-width: 330px;
+}
+.cdge-header-search {
+    min-width: 320px;
+}
+}
+/**End Header Responsive css **/
+
+
+/**Start HomePage Responsive css **/
+@media screen and (max-width: 1300px) {
+.cdg-hero-slider-arrow {
+    right: 30px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+.modal-dialog {
+    width: 870px;
+    padding: 160px 20px;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+.cdg-video-section-container {
+    padding: 65px 30px 50px;
+}
+.cdg-scroll-next-section-btn {
+    padding-top: 20px;
+}
+.modal-dialog {
+    width: 820px;
+}
+.cdg-news-cat-date-spacer {
+    margin: 0 10px;
+}
+.cdg-investor-relations-cat-date-spacer {
+    margin: 0 10px;
+}
+.cdg-hero-main-wrp {
+    padding: 110px 0px 110px 0px;
+}
+.cdg-global-footprint-title {
+    font-size: 2em !important;
+}
+.cdg-container {
+    padding: 0 30px;
+}
+.cdg-global-footprint-title {
+    max-width: calc(100% - 300px);
+}
+.cdge-search-page-container {
+    padding: 50px 30px 50px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.cdg-news-title {
+    font-size: 1em !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0.32px !important;
+}
+/* .cdg-hero-slider-wrp {
+    display: block;
+}
+.cdg-hero-slider-wrp .cdg-hero-items {
+    margin: 0px 0 20px 0;
+    width: 100%;
+    max-width: 100%;
+}
+.cdg-hero-list-wrp {
+    display: inline-flex;
+} */
+.cdg-video-section-btn-main a.video-btn {
+    padding: 10px 22px;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+.modal-dialog {
+    width: 680px;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+.cdg-video-section-container {
+    padding: 90px 20px 30px;
+}
+.cdg-video-section-inner {
+    max-width: 100%;
+}
+.cdg-video-section-btn-main {
+    justify-content: center;
+}
+/* .cdg-video-section-btn-main a {
+    margin-bottom: 15px;
+} */
+.video-btn-wrap {
+    margin: 20px 10px 10px;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 10px auto;
+}
+.cdg-counter-section-img-overlay:after {
+    content: unset;
+}
+.cdg-counter-text .elementor-counter-number-wrapper .elementor-counter-number-suffix {
+    font-size: 14px;
+    line-height: 21px;
+}
+.cdg-find-out-more-section-bg:after {
+    width: 353px;
+    height: 353px;
+}
+.cdg-hero-slider-wrp .cdg-hero-navigation {
+    max-width: 100%;
+    padding-top: 90px;
+    position: relative;
+}
+.cdg-hero-slider-wrp .cdg-hero-navigation .swiper-wrapper {
+    flex-wrap: inherit;
+}
+.cdg-hero-slider-wrp .cdg-hero-navigation .swiper-wrapper .swiper-slide {
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.cdg-hero-slider-wrp .cdg-hero-navigation .swiper-wrapper .swiper-slide.active {
+    text-decoration: underline;
+}
+.cdg-hero-slider-wrp .cdg-hero-items {
+    margin: 0px 0 0px 0;
+    max-width: 100%;
+}
+.cdg-hero-slider-wrp .cdg-hero-items .cdg-hero-list-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.cdg-hero-slider-wrp .cdg-hero-items .cdg-hero-list-wrp li {
+    width: 100%;
+    max-width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 30px !important;
+}
+.cdg-hero-slider-wrp {
+    padding-bottom: 0;
+}
+.cdg-container {
+    padding: 0 20px;
+}
+.cdg-global-footprint-sub-title {
+    font-size: 1em;
+    line-height: 1.5625em;
+}
+.cdg-global-footprint-title {
+    font-size: 1.75em !important;
+    line-height: 1.25em !important;
+	margin-bottom: 20px;
+}
+.cdg-hero-slider-btn-link {
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cdg-hero-slider-arrow {
+    position: inherit;
+    top: unset;
+    right: unset;
+    transform: translate(0, 0);
+    display: flex;
+    align-items: center;
+	margin-top: 30px;
+}
+.cdg-hero-slider-arrow .slider-prev {
+    margin-right: 20px !important;
+}
+.cdg-hero-slider-arrow .slider-prev, .cdg-hero-slider-arrow .slider-next {
+    margin: 0px 0px;
+}
+.cdg-global-footprint-country-counter-prefix-text {
+    font-size: 1.5em !important;
+    line-height: 1.458em !important;
+}
+.cdg-global-footprint-country-counter-number{
+	font-size: 1.5em !important;
+    line-height: 1.458em !important;	
+}
+.cdg-global-footprint-country-counter-suffix-text {
+    font-size: 0.875em !important;
+}
+.cdg-global-footprint-title {
+    max-width: 100%;
+}
+.cdg-investor-relations-slider-scrollbar.swiper-scrollbar {
+    display: block;
+}
+.cdg-investor-relations-slider-arrow-wrap {
+    display: none;
+}
+.cdg-investor-relations-category a.cdg-investor-relations-cat {
+    font-size: 0.625em;
+    line-height: 1.6em;
+}
+.cdg-investor-relations-slider-wrp.swiper-slide.swiper-slide-active {
+    width: 261px !important;
+}
+.cdg-investor-relations-date-wrap .cdg-investor-relations-date {
+    font-size: 0.625em;
+    line-height: 1.6em;
+}
+.cdg-investor-relations-title {
+    font-size: 1em !important;
+    line-height: 1.5em !important;
+}	
+.cdg-news-slider-scrollbar.swiper-scrollbar {
+    display: block;
+}
+.cdg-news-slider-arrow-wrap {
+    display: none;
+}
+.cdg-news-category a.cdg-news-cat {
+    font-size: 0.625em;
+    line-height: 1.6em;
+}
+.cdg-news-slider-wrp.swiper-slide.swiper-slide-active {
+    width: 261px !important;
+}
+.cdg-news-date-wrap .cdg-news-date {
+    font-size: 0.625em;
+    line-height: 1.6em;
+}
+.cdg-news-title {
+    font-size: 1em !important;
+    line-height: 1.5em !important;
+}
+.cdg-our-accreditations-slider-scrollbar.swiper-scrollbar {
+	display: block;
+}
+.cdge-search-page-container {
+    padding: 50px 20px 50px;
+}
+.cdge-search-page-pagination {
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.cdg-video-section-btn-main {
+    justify-content: center;
+    display: grid;
+}
+.cdg-video-section-img {
+    margin-bottom: 40px;
+}
+.modal-dialog {
+    width: 490px;
+}
+.cdg-video-section-btn-main {
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 500px) {
+.cdg-video-section-img img {
+    object-fit: contain;
+    max-height: 351px !important;
+}
+.cdg-video-section-btn-main {
+    justify-content: center;
+    display: grid;
+}
+.modal-dialog {
+    width: 414px;
+}
+.cdge-search-page-heading {
+    font-size: 1.5em !important;
+    line-height: 1.5em !important;
+}
+}
+
+@media screen and (max-width: 414px) {
+.modal-dialog {
+    width: 360px;
+}
+}
+/**End HomePage Responsive css **/
+
+/*start static page css*/
+
+@media screen and (max-width: 1440px) {
+	.cdge-banner-img-wrap:after {
+		width: 24%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	
+.sustainability-sorting-select {
+	min-width: 215px;
+}
+.sustainability-category-sorting-select {
+    min-width: 215px;
+}
+.sustainability-search-inner {
+    min-width: 350px;
+}
+.cdg-sustainability-archive {
+    width: 50%;
+	margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 900px) {
+	
+.sustainability-sorting-select {
+	min-width: 200px;
+}
+.sustainability-category-sorting-select {
+    min-width: 200px;
+}
+.sustainability-search-inner {
+    min-width: 260px;
+}	
+}
+
+@media screen and (max-width: 767px) {
+	
+.cdge-banner-img-wrap h1.cdge-page-title {
+    font-size: 1.75em;
+}
+.cdge-breadcrumbs .separator {
+    padding: 0 10px;
+}
+.sustainability-sorting-searching-wrap {
+    display: block;
+}
+.sustainability-search-wrp {
+    margin-top: 10px;
+}
+.cdg-sustainability-archive-bottom {
+    padding: 15px;
+}
+.cdg-sustainability-content {
+    padding-bottom: 27px;
+}
+.sustainability-sorting-searching-inner {
+    display: block;
+}
+.sustainability-sorting {
+    margin-right: 0px;
+	margin-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.cdg-sustainability-archive {
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 500px) {
+	
+.sustainability-sorting-searching-inner {
+    display: block;
+}
+.sustainability-sorting {
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.cdg-sustainability-archive {
+    width: 100%;
+}	
+}
+@media screen and (max-width: 425px) {
+	
+.cdg-table-main-wrp__table thead tr th {
+    padding: 9px 10px;
+}
+
+.cdg-table-main-wrp__table tbody tr td {
+    padding: 10px 10px 9px 10px;
+} 
+.cdg-table-main-wrp__table thead tr th .cdg-table-main-wrp__cell-title {
+    font-size: 13px;
+}
+.cdg-table-main-wrp__table tbody tr td span.cdg-table-main-wrp__cell-title {
+    font-size: 14px;
+}
+.cdg-sustainability-report-archive .cdg-sustainability-archive-feature-img .cdg-sustainability-img-inner img {
+    max-height: 350px;
+}
+}
+@media screen and (max-width: 330px) {
+.cdg-table-main-wrp__table tbody tr td {
+    padding: 8px 5px 8px 5px;
+} 
+	
+}
+/*End static page css*/
+
+
+/**Start About-board-management media-css **/
+@media screen and (max-width: 1024px) {
+.bod-detail-box-wrp .bod-detail-box ,
+.key-manage-detail-box-wrp .key-manage-details-box ,
+.corporate_office_main_wrp .key-manage-details-box {
+    width: calc(33% - 20px);
+}	
+.psg_board_management_main_wrap {
+    padding: 0 30px;
+}
+}/* 1024 */
+@media screen and (max-width: 767px) {
+.psg_board_management_main_wrap {
+    padding: 0 20px;
+}
+.psg_board_management_main_wrap .key-manage-main-box {
+    margin-bottom: 40px;
+}
+.bod-heading-sub-wrp .bod-heading ,
+.key-manage-main-box .key-manage-heading {
+	font-size: 28px;
+}
+.bod-detail-box-wrp .bod-detail-box ,
+.key-manage-detail-box-wrp .key-manage-details-box ,
+.corporate_office_main_wrp .key-manage-details-box {
+    width: calc(50% - 20px);
+}
+.bod-heading-wrp .bod-heading-sub-wrp {
+    margin-bottom: 20px;
+}
+.bod-main-box .bod-heading-wrp {
+    margin-bottom: 40px;
+}
+}/* 767 */
+@media screen and (max-width: 500px) {
+.key-manage-detail-box-wrp .key-manage-details-box,
+.corporate_office_main_wrp .key-manage-details-box {
+    width: calc(100% - 20px);
+}
+}/* 500 */
+@media screen and (max-width: 420px) {
+.bod-detail-box-wrp .bod-detail-box ,
+.key-manage-detail-box-wrp .key-manage-details-box ,
+.corporate_office_main_wrp .key-manage-details-box {
+    width: calc(100% - 20px);
+}
+.bod-inner-box .bod-feature-img img {
+    object-position: top center;
+}
+.psg_board_management_main_wrap {
+	padding: 0 20px;
+}
+.key-manage-country-detail-box .key-manage-country-box {
+    margin-right: 15px;
+}
+}/* 420 */
+/**End About-board-management css **/
+
+
+/**Start About-board-management Single-pg media-css **/
+@media screen and (max-width: 1024px) {
+.cdg-single-management-container {
+    padding: 0 30px;
+}
+}/* 1024 */
+@media screen and (max-width: 900px) {
+.dg-single-mng-committee-box-main .cdg-single-mng-committee-box-wrp {
+    width: calc(50% - 20px);
+}
+}/* 900 */
+@media screen and (max-width: 768px) {
+.cdg-single-management-container {
+    padding: 0 20px;
+}
+.cdg-single-management-container .cdg-single-management-main-details-box {
+    padding: 30px 15px 10px 15px;
+}
+.cdg-single-management-main-details-box .cdg-single-management-img-details-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cdg-single-management-img-details-wrap .cdg-single-management-name-possition-content-box {
+    max-width: 100%;
+}	
+.cdg-single-management-img-details-wrap .cdg-single-management-name-possition-content-box {
+    margin-left: 0;
+}
+.cdg-single-management-name-possition-wrp .cdg-single-mng-name ,
+.cdg-single-management-name-possition-wrp p {
+    text-align: center;
+}
+}/* 768 */
+@media screen and (max-width: 640px) {
+.dg-single-mng-committee-box-main .cdg-single-mng-committee-box-wrp {
+    width: calc(100% - 20px);
+}
+.cdg-mng-nxt-prev-post {
+    margin: 20px 0 50px 0;
+}
+.cdg-single-management-name-possition-wrp .cdg-single-mng-name {
+	font-size: 28px;
+}
+.cdg-single-management-name-possition-content-box .cdg-single-management-name-possition-wrp {
+    margin-top: 20px;
+}
+
+}/* 640 */
+/**End About-board-management Single-pg media-css **/
+
+
+/*** Start Electrification Page media-css ***/
+@media screen and (max-width: 768px) {
+.psg_electrifiction_inner_main .psg_electrifiction_inner {
+    width: 50%;
+}
+}/* 768 */
+@media screen and (max-width: 600px) {
+.psg_electrifiction_inner_main .psg_electrifiction_inner {
+    width: 100%;
+}
+
+}/* 600 */
+/*** End Electrification Page media-css ***/
+
+
+
+/*** Start All CPT responsive css ***/
+
+@media screen and (max-width: 1200px) {
+.cdge-single-annual-reports-inner-main {
+    padding: 50px 0px 50px 50px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+main.site-main.news-category-press-release {
+    padding: 0 30px;
+}
+main.site-main.news-category-company-announcements {
+    padding: 0 30px !important;
+}
+main.site-main.news-category-features {
+    padding: 0 30px;
+}
+.cdg-news-category-main {
+    margin-bottom: 50px;
+}
+.cdge-single-news-feature-main.container {
+    padding: 50px 0px 50px 0px;
+}
+.cdg-single-media-pagination {
+    margin-bottom: 50px;
+}
+.site-main.investor-relations-category-sgx-announcements {
+    padding: 0 30px;
+	padding-bottom: 50px;
+}
+.cdg-annual-reports-archive {
+    width: 33.33%;
+}
+.cdg-annual-reports-img-inner img {
+    max-height: 100%;
+}
+.single-reports .cdge-single-annual-reports-main {
+    padding: 0 30px;
+    padding-bottom: 60px;
+}
+.cdge-annual-reports-single-title {
+    font-size: 2em !important;
+    line-height: 1.142em !important;
+	padding-bottom: 15px;
+}
+.cdge-single-annual-reports-inner-main {
+    padding: 50px 50px 50px 50px;
+	display: block;
+}
+.cdge-annual-reports-date-social-main {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.cdge-single-annual-reports-social-icon {
+    justify-content: center;
+}
+.cdge-single-annual-reports-inner-right {
+    max-width: 100%;
+}
+.cdge-single-annual-reports-inner-left {
+    margin-right: 0px;
+}
+.cdge-annual-reports-single-title {
+    font-size: 1.75em !important;
+    line-height: 1.142em !important;
+}
+.cdg-financial-results-archive-bottom {
+    display: block;
+}
+.cdge-financial-results-text-content {
+    padding-bottom: 15px;
+}
+.cdg-financial-results-title {
+    padding-bottom: 15px;
+}
+.psg_board_management_main_wrap {
+    margin-top: 50px;
+}	
+.bod-main-box {
+    margin-bottom: 35px;
+}
+.psg_board_management_main_wrap .key-manage-main-box {
+    margin-bottom: 60px;
+}
+.cdg-mng-nxt-prev-post {
+    margin: 20px 0 70px 0;
+}
+}
+
+
+
+@media screen and (max-width: 991px) {
+.cdg-news-category-main .cdg-news-archive-inner {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.cdg-news-report-document-link-download {
+    padding-top: 10px;
+}
+.cdg-news-category-main .cdg-news-archive-content-wrp {
+    max-width: 100%;
+}
+.news-search-inner {
+    min-width: 330px;
+}
+.news-sorting-select {
+    min-width: 190px;
+}
+.news-date-sorting-inner .datepicker {
+    min-width: 190px;
+}
+.news-date-sorting-inner {
+    margin-right: 10px;
+}
+.cdg-news-category-main .cdg-news-date-wrap .cdg-news-date {
+    font-size: 0.75em;
+}
+.investor-relation-date-sorting-inner .datepicker {
+    min-width: 190px;
+}	
+.investor-relation-sorting-select {
+    min-width: 190px;
+}
+.investor-relation-search-inner {
+    min-width: 330px;
+}
+.cdg-investor-relations-archive-inner {
+    display: block;
+}
+.cdg-investor-relations-report-document-link-download {
+    padding-top: 10px;
+}
+.financial-results-search-inner {
+    min-width: 330px;
+}
+.financial-results-date-sorting-inner {
+    margin-right: 10px;
+}
+.financial-results-search-inner {
+    min-width: 290px;
+}
+.financial-results-sorting-select {
+    min-width: 190px;
+}
+}
+
+@media screen and (max-width: 850px) {
+.news-search-inner {
+    min-width: 300px;
+}
+.news-date-sorting-inner .datepicker {
+    min-width: 160px;
+}
+.news-sorting-select {
+    min-width: 160px;
+}
+.investor-relation-date-sorting-inner .datepicker {
+    min-width: 160px;
+}
+.investor-relation-sorting-select {
+    min-width: 160px;
+}
+.investor-relation-search-inner {
+    min-width: 300px;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+.news-sorting-searching-inner {
+    display: block;
+}
+.news-sorting-searching-wrap {
+    display: block;
+}
+.news-date-sorting-inner {
+    margin-right: 0px;
+	margin-bottom: 10px;
+}
+.news-date-sorting-inner .datepicker {
+    max-width: 100%;
+}
+.news-sorting-select {
+    min-width: 100%;
+}
+.news-sorting {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+main.site-main.news-category-press-release {
+    padding: 0 20px;
+}
+.cdg-news-category-main {
+    margin-bottom: 50px;
+}
+.cdg-pagination a.prev {
+    width: 60px;
+}
+.cdg-pagination a.next {
+    width: 60px;
+}
+.cdg-pagination .page-numbers {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+.cdg-pagination a.prev i {
+    font-size: 16px;
+}
+.cdg-pagination a.next i {
+    font-size: 16px;
+}
+.news-search-inner {
+    min-width: 100%;
+}
+main.site-main.news-category-company-announcements {
+    padding: 0 20px !important;
+}
+main.site-main.news-category-features {
+    padding: 0 20px;
+}
+main.news-category-features .cdg-news-archive-main-wrp .cdg-news-archive {
+    width: 50%;
+    max-width: 376px;
+}
+main.news-category-features .cdg-news-archive-main-wrp {
+    flex-wrap: wrap;
+}
+main.news-category-features .cdg-news-archive-main-wrp .cdg-news-archive {
+    width: 100%;
+    max-width: 100%;
+}
+.cdge-news-feature-title {
+    font-size: 1.75em !important;
+}
+.investor-relation-sorting-searching-wrap {
+    display: block;
+}
+.investor-relation-sorting-searching-inner {
+    display: block;
+}
+.investor-relation-sorting {
+    margin-bottom: 10px;
+	margin-right: 0;
+}
+.investor-relation-date-sorting-inner {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.site-main.investor-relations-category-sgx-announcements {
+    padding: 0px 20px !important;
+    padding-bottom: 50px !important;
+}
+.annual-report-sorting-searching-wrap {
+    display: block;
+}
+.annual-report-sorting {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.single-reports .cdge-single-annual-reports-main {
+    padding: 0 10px;
+}
+.cdge-single-annual-reports-inner-main {
+    padding: 30px;
+}
+.financial-results-sorting-searching-wrap {
+    display: block;
+}
+.financial-results-sorting-searching-inner {
+    display: block;
+}
+.financial-results-date-sorting-inner {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.financial-results-sorting {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.cdg-financial-results-archive-content-main {
+    margin-bottom: 30px;
+}
+.cdg-financial-results-archive-right-content-wrp {
+    min-width: 100%;
+    width: 100%;
+}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+.cdg-annual-reports-archive {
+    width: 50%;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+.cdge-single-news-feature-inner-main {
+    padding: 30px;
+}
+.cdge-single-news-feature-social-icon ul {
+    padding-left: 10px;
+}
+.cdge-single-news-feature-social-icon ul li a {
+    margin: 0 12px;
+}
+.cdge-annual-reports-download-buttons a i {
+    font-size: 14px;
+    line-height: 20px;
+}
+.cdge-annual-reports-btn .annual-reports-btn i {
+    font-size: 14px;
+    line-height: 20px;
+}
+.cdge-single-annual-reports-social-icon {
+    justify-content: left;
+}
+.cdge-single-annual-reports-social-icon ul li a i {
+    font-size: 15px;
+}
+.cdge-single-annual-reports-social-icon ul li a {
+    margin: 0 10px;
+}
+.cdge-single-annual-reports-social-icon ul {
+    padding-left: 10px;
+}
+.cdg-financial-results-archive-content-main {
+    display: block;
+}
+.cdge-financial-results-title {
+    padding-bottom: 10px;
+}
+.cdge-financial-results-text-date {
+    font-size: 0.75em;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 414px) {
+.cdg-news-category-main .cdg-news-archive {
+    padding: 20px;
+}
+.cdg-news-category-main .cdg-news-date-wrap .cdg-news-date {
+    font-size: 0.75em;
+}
+.cdge-single-news-feature-social-icon ul li a i {
+    font-size: 15px;
+}
+.cdge-news-feature-title {
+    font-size: 1.5em !important;
+}
+.cdge-single-news-feature-social-icon {
+    font-size: 0.75em;
+}
+.custom-social-link-btn i {
+    margin-left: 15px;
+}
+.cdg-single-arrow .post-title {
+    font-size: 0.75em;
+}
+.cdge-single-news-feature-inner-main {
+    padding: 20px;
+}
+.cdg-investor-relations-category-main .cdg-investor-relations-archive {
+    padding: 20px;
+}
+.annual-report-search-inner {
+    min-width: 100%;
+}
+.cdge-annual-reports-download-buttons a .cdge-annual-reports-download-btn-text {
+    font-size: 0.75em;
+}
+.cdge-annual-reports-btn .annual-reports-btn {
+    font-size: 0.75em;
+}
+.cdge-annual-reports-btn .annual-reports-btn i {
+    font-size: 12px;
+}
+.cdge-annual-reports-download-buttons a i {
+    font-size: 12px;
+}
+.cdge-single-annual-reports-social-icon .custom-social-link-btn i {
+    margin-left: 10px;
+}
+.cdge-single-annual-reports-feature-image img {
+    max-width: 100%;
+    max-height: 330px;
+    object-fit: contain;
+}
+}
+/*** End All CPT responsive css ***/

@@ -1,0 +1,1277 @@
+/*!
+	Theme Name: cdg corporate
+*/
+/*!
+ * Based on Normalize.css v8.0.0, HTML5 Boilerplate v6.1.0, & Bootstrap Reboot v4.1.0 | Under MIT License
+ 
+*/
+
+
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url('./assets/fonts/JosefinSans-Regular.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('./assets/fonts/Poppins-Bold.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-Italic;
+    src: url('./assets/fonts/Poppins-Italic.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url('./assets/fonts/Poppins-Light.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('./assets/fonts/Poppins-Medium.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-MediumItalic;
+    src: url('./assets/fonts/Poppins-MediumItalic.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+	font-display: block;
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('./assets/fonts/Poppins-SemiBold.ttf');
+	font-display: block;
+}
+
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3em;
+	line-height: 1.5em;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	font-family: 'Poppins-Bold';
+}
+h2 {
+    font-size: 2.25em;
+	line-height: 1.5;
+	letter-spacing: 0;
+	color: #2C2B2B;
+	font-family: 'Poppins-Bold';
+}
+h3 {
+    font-size: 1.75em;
+	line-height: 1.5;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	font-family: 'Poppins-SemiBold';
+}
+h4 {
+    font-size: 1.125em;
+	line-height: 1.25em;
+	letter-spacing: 0;
+	color: #2C2B2B;
+	font-family: 'Poppins-Bold';
+}
+h5 {
+    font-size: 1em;
+	line-height: 1.5;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	font-family: 'Poppins-Regular';
+}
+h6 {
+    font-size: 1.125em;
+	line-height: 1.5em;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	font-family: 'Poppins-Italic';
+}
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #2C2B2B;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    font-family: 'Poppins-Regular';
+}
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+pre {
+    font-family: monospace;
+    font-size: 1em;
+    white-space: pre-wrap;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #c36;
+}
+a:active,
+a:hover {
+    color: #336;
+}
+a:not([href]):not([tabindex]),
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus {
+    outline: 0;
+}
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+}
+b,
+strong {
+    font-weight: bolder;
+}
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+small {
+    font-size: 80%;
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sub {
+    bottom: -0.25em;
+}
+sup {
+    top: -0.5em;
+}
+img {
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+}
+details {
+    display: block;
+}
+summary {
+    display: list-item;
+}
+figcaption {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+    font-style: italic;
+    font-weight: 400;
+}
+[hidden],
+template {
+    display: none;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+@media print {
+    *,
+    :after,
+    :before {
+        background: transparent !important;
+        color: #000 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre {
+        white-space: pre-wrap !important;
+    }
+    blockquote,
+    pre {
+        page-break-inside: avoid;
+        border: 1px solid #ccc;
+    }
+    thead {
+        display: table-header-group;
+    }
+    img,
+    tr {
+        page-break-inside: avoid;
+    }
+    h2,
+    h3,
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+label {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #333;
+    outline: 0 none;
+}
+button,
+input {
+    overflow: visible;
+}
+button,
+select {
+    text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+    width: auto;
+    -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+[type="button"],
+[type="submit"],
+button {
+    display: inline-block;
+    font-weight: 400;
+    color: #c36;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #c36;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+[type="button"]:focus,
+[type="submit"]:focus,
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+[type="button"]:focus,
+[type="button"]:hover,
+[type="submit"]:focus,
+[type="submit"]:hover,
+button:focus,
+button:hover {
+    color: #fff;
+    background-color: #c36;
+    text-decoration: none;
+}
+[type="button"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+legend {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+progress {
+    vertical-align: baseline;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+[type="checkbox"],
+[type="radio"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+select {
+    display: block;
+}
+table {
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table td,
+table th {
+    padding: 15px;
+    line-height: 1.5;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+table th {
+    font-weight: 700;
+}
+table tfoot th,
+table thead th {
+    font-size: 1em;
+}
+table caption + thead tr:first-child td,
+table caption + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table thead:first-child tr:first-child td,
+table thead:first-child tr:first-child th {
+    border-top: 1px solid #ccc;
+}
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+    background-color: #f7f7f7;
+}
+table tbody + tbody {
+    border-top: 2px solid #ccc;
+}
+@media (max-width: 767px) {
+    table table {
+        font-size: 0.8em;
+    }
+    table table td,
+    table table th {
+        padding: 7px;
+        line-height: 1.3;
+    }
+    table table th {
+        font-weight: 400;
+    }
+}
+dd,
+dl,
+dt,
+li,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*** Header Css **/
+.elementor-nav-menu .menu-item {
+    transition: all 0.4s linear;
+}
+.no_mb {
+    margin-bottom: 0px !important;
+}
+
+
+
+/** Start Banner css **/
+
+.cdge-banner-img-wrap {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 85px;
+    padding-top: 85px;
+    align-items: center;
+}
+.cdge-banner-img-wrap:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 40%;
+}
+.cdge-banner-img-wrap:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #F47920;
+    opacity: 50%;
+    width: 30%;
+}
+.cdge-banner-img-inner {
+    max-width: 1268px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 5;
+}
+.cdge-breadcrumbs-inner {
+    position: relative;
+}
+.cdge-breadcrumbs-inner:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -15px;
+    width: 5px;
+    height: 5px;
+    background: #F47920;
+    border-radius: 100%;
+}
+.cdge-banner-img-inner .cdge-breadcrumbs span.cdg-breadcrumb-title {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.cdge-banner-img-inner .cdge-breadcrumbs a {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 15px;
+    color: #ffffffcc;
+    font-family: 'Poppins-Regular';
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+.cdge-banner-img-inner .cdge-breadcrumbs a:hover {
+    color: #ffffff;
+	text-decoration: underline !important;
+}
+.cdge-banner-img-inner .cdge-breadcrumbs span.cdg-breadcrumb-parent-title.disable {
+    pointer-events: none;
+}
+.cdge-banner-img-inner .cdge-breadcrumbs span.cdg-breadcrumb-parent-title.disable a {
+	 color: #ffffff80;
+}
+.cdge-breadcrumbs .separator {
+    padding: 0 20px;
+    color: #ffffff80;
+    font-size: 17px;
+    line-height: 0px;
+}
+.cdge-breadcrumbs .separator i{
+	font-size: 20px;
+    line-height: 19px;
+}
+.cdge-banner-img-wrap .cdge-banner-img-inner .cdge-breadcrumbs {
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0;
+    color: #ffffffcc;
+    font-family: 'Poppins-Regular';
+    text-transform: capitalize;
+	display: flex;
+    align-items: center;
+	padding-left: 15px;
+}
+.cdge-banner-img-wrap  h1.cdge-page-title {
+    color: #FFFFFF;
+    font-size: 2.25em;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    font-family: 'Poppins-Bold';
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+/** End Banner css**/
+
+
+
+
+
+/** Start About Corporate Css **/
+
+/* .cdg-corporate-global-section .elementor-widget-wrap {
+    width: calc(100% + 280px);
+}
+.cdg-corporate-global-section .elementor-widget-wrap:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    border-radius: 20px;
+    top: 0;
+    background: rgb(255 255 255 / 75%);
+    backdrop-filter: saturate(180%) blur(10px);
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
+} */
+
+.cdg-corporate-profile-right {
+    position: relative;
+}
+.cdg-corporate-profile-right .cdg-corporate-profile-right-btn1 {
+    position: unset;
+}
+.cdg-corporate-profile-right .cdg-corporate-profile-right-btn1  .elementor-button-wrapper {
+    position: absolute;
+    bottom: -40px;
+    top: unset;
+    left: 50px;
+}
+.cdg-corporate-profile-right .cdg-corporate-profile-right-btn1 .elementor-button-wrapper:hover .elementor-button-text {
+    text-decoration: underline;
+}
+.cdg-corporate-profile-right-btn1 i {
+    color: #F47920;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+.cdg-corporate-profile-right .cdg-corporate-profile-right-btn1 .elementor-widget-container {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    border-top: 1px solid #DDDDDD;
+    left: 0;
+    right: 0;
+}
+/** End About Corporate Css **/
+
+/** Start vision & values Css **/
+
+ul.cdg-box-content {
+    padding-left: 15px;
+}
+ul.cdg-box-content li {
+    color: #2C2B2B;
+    list-style: none;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+ul.cdg-box-content li:before {
+    content: '\2022';
+    width: 1em;
+    display: inline-block;
+    margin-left: -1em;
+    color: #F47920;
+}
+.cdg-corporate-vision {
+    height: 100% !important;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 20px;
+}
+/* .cdg-corporate-vision {
+    height: 100% !important;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 20px;
+    width: calc(100% - 20px) !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+} */
+.cdg-corporate-vision.bottom-bg-color {
+	background: #F1F1F1;
+}
+.cdg-corporate-vision.bottom-bg-color p.elementor-image-box-description {
+    padding-bottom: 10px !important;
+}
+.cdg-middle-box-line:before,
+.cdg-middle-box-line:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #F1F1F1;
+    height: 420px;
+}
+.cdg-middle-box-line:after {
+	right: 0;
+}
+
+/** End vision & values Css **/
+
+
+.cdg-corporate-governance-section {
+    max-width: 792px;
+    margin: 0 auto;
+}
+.cdg-governance-ellipse:before {
+    content: '';
+    position: absolute;
+    width: 553px;
+    height: 553px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    left: -140px;
+    margin: auto;
+    bottom: 0;
+    background: #ffffff47;
+    border-radius: 100%;
+    top: 0;
+}
+
+
+
+
+.cdg-contact-box .elementor-widget-wrap.elementor-element-populated {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto !important;
+}
+
+/** Start Financial Calendar Page Css **/
+
+.cdg-financial-calender-outer-top {
+    width: 100%;
+    display: flex;
+    max-width: 772px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.cdg-financial-calender-main-title {
+    color: #2C2B2B;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold';
+    font-weight: normal;
+	margin-right: 50px;
+}
+.cdg-financial-calender-outer {
+    width: 100%;
+    max-width: 163px;
+	position: relative;
+	margin-left: 50px;
+}
+.cdg-financial-calender-outer:before {
+    content: '\f078';
+    position: absolute;
+    color: #F47920;
+    font-family: 'Font Awesome 5 Pro';
+    right: 15px;
+    font-weight: 100;
+    font-size: 14px;
+    top: 5px;
+	pointer-events: none;
+}
+.cdg-financial-calender-outer select {
+    color: #2C2B2B;
+    background: #fff;
+    font-weight: normal;
+    font-family: 'Poppins-Regular';
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17.5px;
+    padding: 10px 20px;
+    appearance: none;
+}
+.cdg-financial-calender-outer select:focus {
+    background: #00000014;
+    border: 1px solid #00000014 !important;
+}
+.cdg-financial-calender-outer select:hover {
+    border: 1px solid #F47920;
+}
+.cdg-financial-calender-main-container {
+    width: 100%;
+    max-width: 772px;
+    margin: 0 auto;
+}
+.cdg-financial-calender-tbl thead tr th {
+    border: none !important;
+    background: #005990;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17.5px;
+    letter-spacing: 0;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+	padding: 11px 20px;
+}
+.cdg-financial-calender-tbl thead tr th:first-child {
+    border-top-left-radius: 10px;
+}
+.cdg-financial-calender-tbl thead tr th:last-child {
+	border-top-right-radius: 10px;
+}
+.cdg-financial-calender-tbl tbody tr td {
+	border: none;
+	background: #ffffff !important;
+	color: #2C2B2B;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0;
+	font-family: 'Poppins-SemiBold';
+	font-weight: normal;
+	padding: 10px 20px;
+	border-radius: 0 !important;
+}
+.cdg-financial-calender-tbl tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px !important;
+}
+.cdg-financial-calender-tbl tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px !important;
+}
+.cdg-financial-calender-tbl tbody tr td.financial-date {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    line-height: 17.5px;
+}
+
+/** End Financial Calendar Page Css **/
+
+/** Start Dividend Information Page Css **/
+
+.cdg-dividend-archive-latest {
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.cdg-sustainability-archive-bottom:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000014;
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(33px);
+    -webkit-backdrop-filter: blur(33px);
+    z-index: -1;
+}
+.cdg-dividend-main-title.center {
+    text-align: center;
+    padding-bottom: 0px;
+}
+table.cdg-dividend-archive-latest-table {
+    margin-bottom: 0;
+}
+.cdg-dividend-archive-latest-table thead tr th {
+    color: #2C2B2B;
+    font-size: 16px;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+	border: none !important;
+	padding: 20px;
+}
+.cdg-dividend-archive-latest-table thead tr th span {
+    color: #58595B;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 1.0714;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+}
+.cdg-dividend-archive-latest-table tbody tr td {
+    background: #ffffff !important;
+    border: none;
+    color: #F47920;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-family: 'Poppins-Medium';
+    font-weight: normal;
+	padding: 20px;
+}
+.cdg-dividend-archive-latest-table tbody tr td:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.cdg-dividend-archive-latest-table tbody tr td:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.cdg-dividend-archive-latest-table tbody tr td.year-title {
+    color: #2C2B2B;
+    font-family: 'Poppins-SemiBold';
+}
+.cdg-dividend-special-num-tbl {
+    color: #58595B;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Poppins-Italic';
+    padding-top: 5px;
+    font-weight: normal;
+}
+.cdg-dividend-archive-latest-table tbody tr td.final-total {
+	font-family: 'Poppins-Bold';
+}
+.cdg-dividend-main-title {
+    color: #2C2B2B;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-family: 'Poppins-SemiBold';
+    padding-bottom: 30px;
+}
+.cdg-dividend-archive-main-wrp {
+    display: flex;
+    flex-wrap: wrap;
+	margin-left: -10px;
+    margin-right: -10px;
+}
+.cdg-dividend-archive {
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.cdg-dividend-archive-inner {
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+    height: 100%;
+    position: relative;
+    padding-bottom: 75px;
+	overflow: hidden;	
+}	
+.cdg-dividend-archive-inner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000014;
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(33px);
+    -webkit-backdrop-filter: blur(33px);
+    z-index: -1;
+}
+.cdg-dividend-archive-content-wrp h3.cdg-dividend-title {
+    color: #2C2B2B;
+    font-size: 1.125em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: 'Poppins-Bold';
+    font-weight: normal;
+}
+.cdg-dividend-middle-wrap {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.cdg-dividend-middle-wrap .cdg-dividend-upper-title {
+    color: #58595B;
+    font-size: 0.75em;
+    letter-spacing: 0.24px;
+    line-height: 1.25em;
+    font-family: 'Poppins-Bold';
+    font-weight: normal;
+}
+.cdg-dividend-middle-wrap p.cdg-dividend-upper-text {
+    color: #58595B;
+    font-size: 0.875em;
+    line-height: 1.0714;
+    letter-spacing: 0;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.cdg-dividend-middle-wrap .cdg-dividend-upper-num {
+    color: #F47920;
+    font-size: 1em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Poppins-SemiBold';
+    font-weight: normal;
+}
+.cdg-dividend-upper-num span {
+    color: #03131D;
+}
+.cdg-dividend-total-wrap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px solid #DDDDDD;
+    padding-top: 15px;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.cdg-dividend-total-wrap .cdg-dividend-total-title {
+    color: #2C2B2B;
+    font-size: 1em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+}
+.cdg-dividend-total-value {
+    color: #2C2B2B;
+    font-size: 1em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Poppins-Bold';
+    font-weight: normal;
+}
+.cdg-dividend-middle-wrap .cdg-dividend-special-num {
+    color: #58595B;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Poppins-Italic';
+    font-weight: normal;
+    padding-top: 3px;
+}
+/** End Dividend Information Page Css **/
+
+/** Start Passion Page Css **/
+
+.about-passion-section {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+.cdg-passion-slider-main {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.cdg-passion-slider-image {
+    padding: 0 10px;
+}
+.cdg-passion-slider-inner .cdg-passion-slider-image img {
+    border-radius: 20px;
+}
+.cdg-passion-slider-title {
+    text-align: center;
+    font-size: 1.125em;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: 'Poppins-Bold';
+    font-weight: normal;
+	padding-top: 10px;
+}
+.cdg-passion-slider-inner:hover .cdg-passion-slider-title {
+    text-decoration: underline;
+}
+.cdg-passion-slider-inner a {
+    outline: none !important;
+}
+.cdg-passion-slider-main-wrp .slick-arrow {
+    max-width: 70px !important;
+    height: 30px !important;
+    width: 100% !important;
+    cursor: pointer;
+    border: 1px solid #F47920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 0;
+    background: #F47920;
+    opacity: 1;
+	outline: none !important;
+}
+.cdg-passion-slider-main-wrp .slick-arrow:hover {
+	background: #FFFFFF;
+}
+.cdg-passion-slider-main-wrp .slick-prev {
+	left: -80px;
+}
+.cdg-passion-slider-main-wrp .slick-next {
+    right: -80px;
+}
+.cdg-passion-slider-main-wrp .slick-prev:before {
+	content: "\f060";
+	font-family: 'Font Awesome 5 Pro';
+	color: #ffffff;
+	font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+	font-weight: 300;
+}
+.cdg-passion-slider-main-wrp .slick-next:before {
+	content: "\f061";
+	font-family: 'Font Awesome 5 Pro';
+	color: #ffffff;
+	font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+	font-weight: 300;
+}
+.cdg-passion-slider-main-wrp .slick-arrow:hover:before {
+	color: #F47920;
+}
+/** End Passion Page Css **/
+
+
+/** Responsive **/
+
+@media screen and (max-width: 1375px) {
+	
+.cdg-passion-slider-main-wrp .slick-prev {
+    left: -70px;
+}
+.cdg-passion-slider-main-wrp .slick-next {
+    right: -70px;
+}	
+}
+
+@media screen and (max-width: 1350px) {
+.cdg-passion-slider-main-wrp .slick-prev {
+    left: unset;
+    top: -40px;
+    right: 100px;
+}
+.cdg-passion-slider-main-wrp .slick-next {
+    right: 10px;
+    top: -40px;
+}	
+}	
+
+@media screen and (max-width: 1200px) {
+.cdg-passion-slider-repeater-main {
+    margin-top: 40px;
+}
+}	
+
+@media screen and (max-width: 1024px) {
+.cdg-corporate-global-section .elementor-widget-wrap:before { 
+    background: rgb(255 255 255 / 100%);
+}
+.cdg-dividend-archive {
+    width: 33.33%;
+}	
+}	
+
+@media screen and (max-width: 768px) {
+.cdg-dividend-archive {
+    width: 50%;
+}
+}	
+
+@media screen and (max-width: 767px) {
+
+.cdg-middle-box-line:before,
+.cdg-middle-box-line:after {
+    display: none;
+}	
+.cdg-governance-ellipse:before {
+    width: 400px;
+    height: 400px;
+    left: -100px;
+    bottom: unset;
+    top: 20px;
+}
+.cdg-dividend-main-title { 
+    font-size: 1.5em;
+}
+.cdg-passion-slider-repeater-main {
+    margin-top: 50px;
+}	
+}
+
+@media screen and (max-width: 600px) {
+	
+.cdg-dividend-archive-latest { 
+    padding: 20px;
+}
+.cdg-dividend-archive-latest-table thead tr th {
+    padding: 20px 10px;
+}
+.cdg-dividend-archive-latest-table tbody tr td {
+    padding: 20px 10px;
+}
+.cdg-dividend-archive-main-wrp {
+    margin-left: -5px;
+    margin-right: -5px;
+}	
+.cdg-dividend-archive { 
+    padding: 0 5px;
+}	
+}
+
+@media screen and (max-width: 500px) {
+.cdg-financial-calender-tbl tbody tr td.financial-date {
+    width: 125px;
+}
+.cdg-dividend-archive {
+    width: 100%;
+}
+.cdg-dividend-archive-latest-table thead tr th {
+    padding: 15px 5px;
+    font-size: 13px;
+}
+.cdg-dividend-archive-latest-table thead tr th span {  
+    font-size: 12px;
+}	
+.cdg-dividend-archive-latest-table tbody tr td {
+    padding: 15px 5px;
+    font-size: 13px;
+}	
+}	
+
+@media screen and (max-width: 475px) {
+	
+.cdg-financial-calender-main-title {
+    margin-right: 20px;
+}
+.cdg-financial-calender-outer {
+    margin-left: 20px;
+}	
+}
